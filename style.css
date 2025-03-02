@@ -1,0 +1,44 @@
+body {
+    background-color: #a8a58a;
+}
+
+.keret {
+    background-color: #c5c1ad;
+    border: 1px solid black;
+    width: 560px;
+    height: 793px;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+p::first-letter {
+    margin-left: 20px;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+p.balra {
+    float: left;
+}
+
+p.jobbra {
+    float: right;
+    margin-right: 50px;
+}
+
+p.excl::first-letter {
+    margin-left: 0px;
+}
+
+table {
+    border: 1px dotted black;
+}
+
+h3::first-letter {
+    margin-left: 20px;
+}
